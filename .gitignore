@@ -1,0 +1,6 @@
+.idea
+.wrangler
+node_modules
+wrangler.toml
+pnpm-lock.yaml
+.DS_Store
