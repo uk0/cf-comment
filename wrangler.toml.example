@@ -1,0 +1,14 @@
+name = "comments-worker"
+compatibility_date = "2024-01-01"
+
+main = "worker.js"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "comments"
+database_id = ""
+
+[vars]
+TURNSTILE_SITEKEY = "0x4AAAAAAB_XXXXXXXXXX"
+TURNSTILE_SECRET_KEY = "0x4AAAAAAB_XXXXXXXXXXXXXXXXXXXXXXXXXXX"
+ADMIN_PASS = "1234"
